@@ -5,7 +5,7 @@ const hbs = require("hbs");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const qs = require("querystring");
-const checksum_lib =require("./paytm/checksum");
+//const checksum_lib =require("./paytm/checksum");
 const config =require("./paytm/config");
 app.use(express.static("express"));
 const BookNow=require("./models/apartment")
